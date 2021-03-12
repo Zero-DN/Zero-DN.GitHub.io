@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://zodnx.com/bbs/index.html</loc>
+    <loc>https://zodnx.com/categories/index.html</loc>
     
     <lastmod>2021-02-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://zodnx.com/categories/index.html</loc>
+    <loc>https://zodnx.com/bbs/index.html</loc>
     
     <lastmod>2021-02-07</lastmod>
     
@@ -102,20 +102,6 @@
   </url>
   
   <url>
-    <loc>https://zodnx.com/tags/windows/</loc>
-    <lastmod>2021-03-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zodnx.com/tags/C%E7%9B%98%E6%B8%85%E7%90%86/</loc>
-    <lastmod>2021-03-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zodnx.com/tags/git/</loc>
     <lastmod>2021-03-12</lastmod>
     <changefreq>daily</changefreq>
@@ -138,6 +124,20 @@
   
   <url>
     <loc>https://zodnx.com/tags/%E7%8E%A9%E6%9C%BA%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2021-03-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zodnx.com/tags/windows/</loc>
+    <lastmod>2021-03-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zodnx.com/tags/C%E7%9B%98%E6%B8%85%E7%90%86/</loc>
     <lastmod>2021-03-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -181,13 +181,6 @@
   </url>
   
   <url>
-    <loc>https://zodnx.com/categories/%E7%94%B5%E8%84%91/</loc>
-    <lastmod>2021-03-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zodnx.com/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2021-03-12</lastmod>
     <changefreq>daily</changefreq>
@@ -196,6 +189,13 @@
   
   <url>
     <loc>https://zodnx.com/categories/%E5%AE%89%E5%8D%93/</loc>
+    <lastmod>2021-03-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zodnx.com/categories/%E7%94%B5%E8%84%91/</loc>
     <lastmod>2021-03-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
