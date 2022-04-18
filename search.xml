@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>七牛云图床使用教程</title>
+    <url>/2022/04/18/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前用的是gitee+picgo做图床，然后gitee挂了几天没图片，还是选择把图片放到七牛云里。这个教程是picgo+七牛云，以及添加自定义域名的。</p>
+<a id="more"></a>
+
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol>
+<li>先进入<a href="https://www.qiniu.com/" target="_blank" rel="noopener">官网</a>注册好账号</li>
+<li>进入控制台-选择对象存储-空间管理-新建空间，写一个好记的空间名称，如pic-xxx,存储区域选择一个离自己进的地区，我选择的是华南，访问控制选择公开。</li>
+<li>七牛云中选择密钥管理，复制AK、SK到picgo里的七牛图床设置，需要注意的就是复制SK时需要先显示才能复制，不然就会复制失败，然后一直找不到配置不成功的原因。(别问为啥知道)</li>
+<li>存储空间写自己的空间名称pic-xxx，访问网站可以选择复制七牛云送的测试域名的网站，也可以自定义，<a href="https://developer.qiniu.com/kodo/1671/region-endpoint-fq" target="_blank" rel="noopener">存储区域</a>选择自己对应的区域，我的是华南就是z2。</li>
+</ol>
+<h2 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h2><p>自定义域名需要有备案的域名，如何备案可以看我之前写的阿里云icp备案。<br>有了备案域名以后，在域名管理中选择添加域名，加速域名选择自己备案以后的域名，一般用子域名，如我备案的域名是zodnx.com，我的加速域名我就写pic.zodnx.com，这样就不会影响到我的博客的访问了，通信协议可以选htpps，需要上传证书，可以去阿里云中下载SSL证书，下载Nginx类型，将证书里是内容复制到七牛云上传证书里，然后确定以后就是去添加CNAME，然后就是把七牛云去的CNAME添加到自己的域名里就行了。<br>等自定义域名状态显示成功了，就可以修改picgo里的访问网址了修改成对应的加速域名就行了。我的就是<code>https://pic.zodnx.com</code>，然后可以上传图片试试能不能上传成功，如果成功了picgo相册里就有上传的图片，如果不成功就看看自己哪个步骤搞错了。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>我也是失败了好久，看了好多教程，学了很多方法才成功的，不要怕难不要怕复杂多试试，多想想多学学，总会成功，总会有所收获的。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>七牛云</tag>
+        <tag>图床</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>阿里云icp备案</title>
     <url>/2022/04/14/%E9%98%BF%E9%87%8C%E4%BA%91icp%E5%A4%87%E6%A1%88/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>需要阿里云的服务器，以及域名，身份证件等；备案非常麻烦没有必要就不要搞备案。</p>
@@ -92,9 +115,9 @@
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我们日常使用最多的工具应该就是输入法了,这个不起眼的东西已经融入我们的生活中了,打字都是需要用输入法的,以下是关于我学习各种输入法的过程。</p>
 <a id="more"></a>
 
-<h2 id="小鹤双拼"><a href="#小鹤双拼" class="headerlink" title="小鹤双拼"></a>小鹤双拼</h2><p>  首先接触的是小鹤双拼，我也忘记是怎么接触的了，是什么时候开始使用的，然后就入坑输入法，开始爱不释手了。<br>  小鹤双拼是一种双拼方案，能够减少击键，提高日常使用的效率，比如用全拼打“小鹤双拼”是：xiaoheshuangping，用双拼打是：xnheulpb，很明显需要打的字少了，减少击键你的打字速度自然就快了。<br>  双拼对打字体验的最大提升，在于节奏感，在于整齐。每个字都是稳定的两个键，稳定和整齐能够极大的提升打字的舒适度，你能够匀称的阅读跟产生文字，也能够速度匀称的输入文字，对大脑负担最小这方面，双拼是所有输入法之冠。用习惯双拼的人很难再改回全拼。<br>  而且双拼入门很简单，只需要记一下键位，终生受益。最重要的是使用的很舒服！<br>  这里是官网链接：<a href="https://flypy.com/" target="_blank" rel="noopener">https://flypy.com/</a><br>  下载以后手机电脑都能使用，一般一周就能回归全拼的速度了，官网也有教程<br>  练习：可以使用微信小程序：双拼练习，电脑可以使用在网站：<a href="https://api.ihint.me/shuang/" target="_blank" rel="noopener">https://api.ihint.me/shuang/</a> ，也可以下载跟打器练习<br>  学习总结：多打多练习，把键位记住习惯了就会了，和全拼区别不大，收益又高，适合新手入门。<br><img src="/2021/02/24/%E5%85%B3%E4%BA%8E%E8%BE%93%E5%85%A5%E6%B3%95/%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC.png" alt="双拼"></p>
-<h2 id="小鹤音形"><a href="#小鹤音形" class="headerlink" title="小鹤音形"></a>小鹤音形</h2><p>  小鹤音形是小鹤双拼的进阶版，使用双拼的时候还需要进行选词进行翻页，学会了小鹤音形以后就不需要了打字都是直接打出来就好了，不需要选词不需要翻页，可以盲打（就是闭着眼睛能打出你想打的话），音形就是双拼加形，双拼挺好用的，但重码还是太多了，最求更好的体验我选择进阶音形，虽然学起来比双拼还难一些但问题不大，搞懂了拆分规则就能基本使用了，官网有规则与教程。<br>  学小鹤音形就是记住形码，全码直接上屏<br>  学音形的时候总是会遇到不会打的字的时候就需要用到查编码的网站了：<a href="http://react.xhup.club/search" target="_blank" rel="noopener">http://react.xhup.club/search</a> ，使用这个网站可以查到不知道打的字的编码。<br>  学习总结：初学的时候入门难度是挺高的，但坚持学还是学会了收益挺大的，我现在速度能达到每分钟120字，学了双拼再入音形是比较简单的，而且基本上不需要养词库了，想打什么词直接打出来就行了，需要什么词就加词就行了。遇到困难主要还是不知道怎么拆所以就打不出来，解决方法就是多拆字，看懂拆分规则。<br><img src="/2021/02/24/%E5%85%B3%E4%BA%8E%E8%BE%93%E5%85%A5%E6%B3%95/%E5%BF%AB%E5%AD%A6%E5%B0%8F%E9%B9%A4.jpg" alt="音形"><br>  再推荐学习小鹤的群吧：489331567（小鹤双拼新手村）、966868329（仙鹤•养殖场）</p>
-<h2 id="星空二笔"><a href="#星空二笔" class="headerlink" title="星空二笔"></a>星空二笔</h2><p>  因为群里大佬很多都用星二，好奇所以就会了一下，很简单，一天就学会了，直接上手就会用了，为什么放弃了呢，还是因为音形和星二冲突，无法同时用两种方案还是选择放弃了星二，主要还是我习惯了音形的方案了我习惯了用三选，空格首选，;次选，‘三选，手机我也是设置的三选，候选是三选，但使用星二的时候键位会和我的三选冲突，改的话有点麻烦，但这方案我还是学会了，看着表然后知道字的两笔就能打想要的词了，需要记的也很少，因为是笔画+音只需要记丨丶乛一丿就差不多了，还有一些特殊的偏旁，了解一下规则就能用了。<br><img src="/2021/02/24/%E5%85%B3%E4%BA%8E%E8%BE%93%E5%85%A5%E6%B3%95/%E6%98%9F%E4%BA%8C.png" alt="星二"></p>
+<h2 id="小鹤双拼"><a href="#小鹤双拼" class="headerlink" title="小鹤双拼"></a>小鹤双拼</h2><p>  首先接触的是小鹤双拼，我也忘记是怎么接触的了，是什么时候开始使用的，然后就入坑输入法，开始爱不释手了。<br>  小鹤双拼是一种双拼方案，能够减少击键，提高日常使用的效率，比如用全拼打“小鹤双拼”是：xiaoheshuangping，用双拼打是：xnheulpb，很明显需要打的字少了，减少击键你的打字速度自然就快了。<br>  双拼对打字体验的最大提升，在于节奏感，在于整齐。每个字都是稳定的两个键，稳定和整齐能够极大的提升打字的舒适度，你能够匀称的阅读跟产生文字，也能够速度匀称的输入文字，对大脑负担最小这方面，双拼是所有输入法之冠。用习惯双拼的人很难再改回全拼。<br>  而且双拼入门很简单，只需要记一下键位，终生受益。最重要的是使用的很舒服！<br>  这里是官网链接：<a href="https://flypy.com/" target="_blank" rel="noopener">https://flypy.com/</a><br>  下载以后手机电脑都能使用，一般一周就能回归全拼的速度了，官网也有教程<br>  练习：可以使用微信小程序：双拼练习，电脑可以使用在网站：<a href="https://api.ihint.me/shuang/" target="_blank" rel="noopener">https://api.ihint.me/shuang/</a> ，也可以下载跟打器练习<br>  学习总结：多打多练习，把键位记住习惯了就会了，和全拼区别不大，收益又高，适合新手入门。<br><img src="https://pic.zodnx.com/202204131307860.png" alt="双拼"></p>
+<h2 id="小鹤音形"><a href="#小鹤音形" class="headerlink" title="小鹤音形"></a>小鹤音形</h2><p>  小鹤音形是小鹤双拼的进阶版，使用双拼的时候还需要进行选词进行翻页，学会了小鹤音形以后就不需要了打字都是直接打出来就好了，不需要选词不需要翻页，可以盲打（就是闭着眼睛能打出你想打的话），音形就是双拼加形，双拼挺好用的，但重码还是太多了，最求更好的体验我选择进阶音形，虽然学起来比双拼还难一些但问题不大，搞懂了拆分规则就能基本使用了，官网有规则与教程。<br>  学小鹤音形就是记住形码，全码直接上屏<br>  学音形的时候总是会遇到不会打的字的时候就需要用到查编码的网站了：<a href="http://react.xhup.club/search" target="_blank" rel="noopener">http://react.xhup.club/search</a> ，使用这个网站可以查到不知道打的字的编码。<br>  学习总结：初学的时候入门难度是挺高的，但坚持学还是学会了收益挺大的，我现在速度能达到每分钟120字，学了双拼再入音形是比较简单的，而且基本上不需要养词库了，想打什么词直接打出来就行了，需要什么词就加词就行了。遇到困难主要还是不知道怎么拆所以就打不出来，解决方法就是多拆字，看懂拆分规则。<br><img src="https://pic.zodnx.com/202204131308323.jpg"><br>  再推荐学习小鹤的群吧：489331567（小鹤双拼新手村）、966868329（仙鹤•养殖场）</p>
+<h2 id="星空二笔"><a href="#星空二笔" class="headerlink" title="星空二笔"></a>星空二笔</h2><p>  因为群里大佬很多都用星二，好奇所以就会了一下，很简单，一天就学会了，直接上手就会用了，为什么放弃了呢，还是因为音形和星二冲突，无法同时用两种方案还是选择放弃了星二，主要还是我习惯了音形的方案了我习惯了用三选，空格首选，;次选，‘三选，手机我也是设置的三选，候选是三选，但使用星二的时候键位会和我的三选冲突，改的话有点麻烦，但这方案我还是学会了，看着表然后知道字的两笔就能打想要的词了，需要记的也很少，因为是笔画+音只需要记丨丶乛一丿就差不多了，还有一些特殊的偏旁，了解一下规则就能用了。<br><img src="https://pic.zodnx.com/202204131308226.png"></p>
 <h2 id="输入法"><a href="#输入法" class="headerlink" title="输入法"></a>输入法</h2><p>  之前讲的都是输入法方案，现在来聊一下使用的输入法，我现在电脑windows用的是小狼毫，手机安卓用的是同文输入法无障碍版，使用起来自定义程度很高，能自制皮肤，可以使用脚本滤镜，输入法方案直接挂接就能用了，而且无广告本地输入法不联网，除了入门难了点其他都挺好。<br>  官网：<a href="https://rime.im/" target="_blank" rel="noopener">https://rime.im/</a></p>
 ]]></content>
       <categories>
@@ -133,8 +156,8 @@
     <content><![CDATA[<h2 id="需要的东西"><a href="#需要的东西" class="headerlink" title="需要的东西"></a>需要的东西</h2><p>sao utils，Wallpaper Engine</p>
 <a id="more"></a>
 
-<h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p><img src="/2021/01/26/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/zm.png" alt="zm"></p>
-<p><img src="/2021/01/26/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/zm2.png" alt="zm2"></p>
+<h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p><img src="https://pic.zodnx.com/202204121851980.png"></p>
+<p><img src="https://pic.zodnx.com/202204121851057.png"></p>
 <h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>sao utils是一个启动器软件，可以选择在官网免费下载，也可以选择在steam上购买下载，Wallpaper Enging是动态壁纸软件，需要在steam上购买下载</p>
 <h2 id="sao-utils使用"><a href="#sao-utils使用" class="headerlink" title="sao utils使用"></a>sao utils使用</h2><p>可以自己配置，也可以使用懒人包，具体参考：<a href="https://www.bilibili.com/video/BV1fJ411F7rY" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1fJ411F7rY</a><br><a href="https://www.bilibili.com/video/BV1V741167yr" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1V741167yr</a></p>
 <h2 id="我的sao-utils配置"><a href="#我的sao-utils配置" class="headerlink" title="我的sao utils配置"></a>我的sao utils配置</h2><p><a href="https://www.jianguoyun.com/p/DW3itkAQmrjyCBichd8D" target="_blank" rel="noopener">https://www.jianguoyun.com/p/DW3itkAQmrjyCBichd8D</a> </p>
@@ -143,8 +166,8 @@
         <category>美化</category>
       </categories>
       <tags>
-        <tag>windows</tag>
         <tag>桌面美化</tag>
+        <tag>windows</tag>
       </tags>
   </entry>
   <entry>
@@ -158,10 +181,10 @@
 <p>3、git init # 在此文件夹生成一个.git 隐藏文件</p>
 <p>4、git add . # 将文件添加到缓存区</p>
 <p>5、git commit -m “注释语句”</p>
-<p>6、git remote add origin <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#x63;&#x6f;&#x6d;</a>:你的用户名/你的仓库名.git #github 上创建好的仓库和本地仓库进行关联，在你建立的仓库找到克隆下载复制 ssh 下面的链接，粘贴到 origin 后面</p>
+<p>6、git remote add origin <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#104;&#117;&#98;&#46;&#x63;&#x6f;&#x6d;</a>:你的用户名/你的仓库名.git #github 上创建好的仓库和本地仓库进行关联，在你建立的仓库找到克隆下载复制 ssh 下面的链接，粘贴到 origin 后面</p>
 <p>7、git pull origin master #如果是空仓库可以直接 push 或者 git pull –rebase origin master 或者 git pull origin master –allow-unrelated-histories</p>
 <p>8、git push origin master #将内容上传至 github</p>
-<h2 id="官网教程"><a href="#官网教程" class="headerlink" title="官网教程"></a>官网教程</h2><p>git init //把这个目录变成 Git 可以管理的仓库<br>git add README.md //文件添加到仓库<br>git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部 add 了<br>git commit -m “first commit” //把文件提交到仓库<br>git remote add origin <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#111;&#x6d;">&#x67;&#x69;&#x74;&#x40;&#103;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#111;&#x6d;</a>:wangjiax9/practice.git //关联远程仓库<br>git push -u origin master //把本地库的所有内容推送到远程库上</p>
+<h2 id="官网教程"><a href="#官网教程" class="headerlink" title="官网教程"></a>官网教程</h2><p>git init //把这个目录变成 Git 可以管理的仓库<br>git add README.md //文件添加到仓库<br>git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部 add 了<br>git commit -m “first commit” //把文件提交到仓库<br>git remote add origin <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#109;">&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#109;</a>:wangjiax9/practice.git //关联远程仓库<br>git push -u origin master //把本地库的所有内容推送到远程库上</p>
 <h2 id="报错补充"><a href="#报错补充" class="headerlink" title="报错补充"></a>报错补充</h2><p>error: failed to push some refs to ‘github.com:Zero-DN/Zero-ZY.git’<br>解决方法</p>
 <blockquote>
 <p>ｇｉｔ　ｐｕｓｈ　－ｕ　ｏｒｉｇｉｎ　ｍａｓｔｅｒ　－ｆ</p>

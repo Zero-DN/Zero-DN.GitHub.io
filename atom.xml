@@ -6,7 +6,7 @@
   <link href="https://zodnx.com/atom.xml" rel="self"/>
   
   <link href="https://zodnx.com/"/>
-  <updated>2022-04-14T10:56:09.651Z</updated>
+  <updated>2022-04-18T14:40:26.573Z</updated>
   <id>https://zodnx.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>七牛云图床使用教程</title>
+    <link href="https://zodnx.com/2022/04/18/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>https://zodnx.com/2022/04/18/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <published>2022-04-18T14:44:01.613Z</published>
+    <updated>2022-04-18T14:40:26.573Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;之前用的是gitee+picgo做图床，然后gitee挂了几天没图片，还是选择把图片放到七牛云里。这个教程是picgo+七牛云，以及添加自定义域名的。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://zodnx.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="七牛云" scheme="https://zodnx.com/tags/%E4%B8%83%E7%89%9B%E4%BA%91/"/>
+    
+    <category term="图床" scheme="https://zodnx.com/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>阿里云icp备案</title>
@@ -103,7 +124,7 @@
     <link href="https://zodnx.com/2021/02/24/%E5%85%B3%E4%BA%8E%E8%BE%93%E5%85%A5%E6%B3%95/"/>
     <id>https://zodnx.com/2021/02/24/%E5%85%B3%E4%BA%8E%E8%BE%93%E5%85%A5%E6%B3%95/</id>
     <published>2021-02-24T14:15:55.000Z</published>
-    <updated>2021-02-24T15:51:35.139Z</updated>
+    <updated>2022-04-13T05:09:02.592Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我们日常使用最多的工具应该就是输入法了,这个不起眼的东西已经融入我们的生活中了,打字都是需要用输入法的,以下是关于我学习各种输入法的过程。&lt;/p&gt;</summary>
@@ -147,7 +168,7 @@
     <link href="https://zodnx.com/2021/01/26/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/"/>
     <id>https://zodnx.com/2021/01/26/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/</id>
     <published>2021-01-26T12:42:17.000Z</published>
-    <updated>2021-03-09T12:19:10.278Z</updated>
+    <updated>2022-04-12T10:52:09.432Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;需要的东西&quot;&gt;&lt;a href=&quot;#需要的东西&quot; class=&quot;headerlink&quot; title=&quot;需要的东西&quot;&gt;&lt;/a&gt;需要的东西&lt;/h2&gt;&lt;p&gt;sao utils，Wallpaper Engine&lt;/p&gt;</summary>
@@ -157,9 +178,9 @@
     <category term="美化" scheme="https://zodnx.com/categories/%E7%BE%8E%E5%8C%96/"/>
     
     
-    <category term="windows" scheme="https://zodnx.com/tags/windows/"/>
-    
     <category term="桌面美化" scheme="https://zodnx.com/tags/%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="windows" scheme="https://zodnx.com/tags/windows/"/>
     
   </entry>
   
